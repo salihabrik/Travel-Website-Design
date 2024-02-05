@@ -202,5 +202,15 @@ nav{
 }
 
 .stories p {
-    width: 80px
+    width:80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate;
+    -moz-transform: translate;
+    -ms-transform: translate;
+    -o-transform: translate;
+    color: #fff;
+    font-size: 26px;
 }
