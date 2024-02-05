@@ -179,3 +179,28 @@ nav{
     margin-top: 20px;
     display: inline-block;
 }
+
+.stories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.stories div img{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.stories div{
+    position: relative;
+    text-align: center;
+}
+
+.stories p {
+    width: 80px
+}
