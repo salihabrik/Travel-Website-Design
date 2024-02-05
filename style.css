@@ -113,3 +113,32 @@ nav{
     width: 100%;
     border-radius: 10px;
 }
+
+.exclusives div {
+    position: relative;
+}
+
+.exclusives div span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.exclusives div span:nth-child(1) {
+    font-size: 2.5vw;
+}
+
+.trending {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.trending div img {
+    width: 100%;
+    border-radius: 10px;
+}
