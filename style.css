@@ -275,5 +275,35 @@ nav{
     font-size: 22px;
     cursor: pointer;
     margin: 0 10px;
-    color: #999;
+    color:  #ff5361;
+}
+
+.active {
+    position: relative;
+}
+
+.active::after{
+    content: '';
+    background: #fff;
+    width: 25px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -12px;
+    border-radius: 5px;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* Path: index.html */
+
+
+@media only screen and ()
+    
 }
