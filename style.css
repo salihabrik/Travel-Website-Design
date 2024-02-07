@@ -332,4 +332,13 @@ nav .fa-bars {
         display: inline-block;
         margin: 15px 0 30px;
     }
+    nav .fa-bars{
+        display: block;
+        color: #fff;
+        position: fixed;
+        top: 4%;
+        right: 7%;
+        cursor: pointer;
+        font-size: 28px;
+    }
 }
