@@ -345,15 +345,10 @@ nav .fa-bars {
     .active::after{
     left: -40px;
     transform: translate(0, 50%);
-    bottom: -12px;
-    border-radius: 2px;
-    -webkit-transform: translate(0, 50%);
-    -moz-transform: translate(0, 50%);
-    -ms-transform: translate(0, 50%);
-    -o-transform: translate(0, 50%);
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
+    bottom: 50px;
+    }
+    .hidemenu{
+        display: none;
+    }
 }
 
