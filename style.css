@@ -324,7 +324,14 @@ nav .fa-bars {
         background: #000;
         text-align: right;
         padding: 100px 7% 0;
-    }
+        max-height: 100px;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        -webkit-transition: max-height 0.5s;
+        -moz-transition: max-height 0.5s;
+        -ms-transition: max-height 0.5s;
+        -o-transition: max-height 0.5s;
+}
     nav .nav-links li{
         display: block;
         margin: 10px 0;
